@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './layouts/Header'
 import Banner from './layouts/Banner'
+import Title from './layouts/Title'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <main>
           <Banner/>
+          <Title/>
       </main>
     </>
   )

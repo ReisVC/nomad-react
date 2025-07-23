@@ -1,5 +1,8 @@
 import React from 'react'
 import './Banner.css'
+import VideoCard from '../components/VideoCard'
+import { IoMdPlay } from "react-icons/io";
+
 
 function Banner() {
   return (
@@ -9,7 +12,7 @@ function Banner() {
             <p>Discover a new way to travel that’s fun, easy, and stress-free <br />Turn your dream destinations into unforgettable realities</p>
         </div>
         <div className='banner-img'>
-            <h2></h2>
+            <VideoCard/>
         </div>
     </section>
   )

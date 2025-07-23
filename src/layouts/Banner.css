@@ -2,14 +2,20 @@
     height: 90vh;
     background-image: url(https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/romantic-sunset-on-a-tropical-beach-with-palm-tree-2025-01-08-10-37-11-utc-1.webp);
     background-position: center;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-left: 8px;
     margin-right: 8px;
     flex-direction: column;
 }
 
+.banner .banner-img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .banner .banner-title {
-    border-radius: 10px;
+    border-radius: 20px 20px 0px 0px;
     background-color: rgba(0, 0, 0, 0.178);
     height: 70%;
     display: flex;
@@ -35,11 +41,16 @@
     font-size: 18px;
     font-weight: 500;
     font-family: 'Manrope', sans-serif;
-    margin-left: 34%;
-    padding-top: 20px;
+    margin-left: 30%;
+    padding-top: 22px;
 }
 
 .banner .banner-img {
     background-color: rgba(0, 0, 0, 0.178);
     height: 30%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.banner .videocard {
+    margin-top: 100%;
 }

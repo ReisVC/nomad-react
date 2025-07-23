@@ -20,6 +20,10 @@
     transition: all 0.5s ease;
 }
 
+.btn-white:hover {
+    color: white;
+}
+
 .btn-white {
     width: 131.72px;
     height: 50px;
