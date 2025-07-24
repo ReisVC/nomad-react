@@ -5,6 +5,7 @@ import './App.css'
 import Header from './layouts/Header'
 import Banner from './layouts/Banner'
 import Title from './layouts/Title'
+import CardsTrip from './layouts/CardsTrip'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <main>
           <Banner/>
           <Title/>
+          <CardsTrip/>
       </main>
     </>
   )
