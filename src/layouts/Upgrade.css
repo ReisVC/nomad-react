@@ -1,0 +1,33 @@
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+.section-improve {
+
+    margin-top: 7%;
+    background-color: #ededed83;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title-improve {
+    font-size: 56px;
+    font-weight: 600;
+    color: black;
+    padding-left: 10%;
+}
+
+.div-title-improve {
+    margin-top: 7%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-title-improve p {
+    font-size: 18px;
+    color: #6c6c6c;
+    padding-right: 10%;
+}

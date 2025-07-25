@@ -3,6 +3,7 @@ import './Card.css'
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { IoStarOutline } from "react-icons/io5";
 import { FaUmbrellaBeach } from "react-icons/fa";
+import BotaoTransparente from './BotaoTransparente';
 
 
 function Card(props) {
@@ -18,14 +19,19 @@ function Card(props) {
                 </div>
             </div>
         <h5>{props.title}</h5>
-        <p>{props.subtitle}</p>
+        <p className='subtitle'>{props.subtitle}</p>
             <div className='trip-details'>
                 <FaRegCalendarAlt className='ico-calendar'/>
                 <span className='detail-calendar'>12 jun - 20 jun</span>
                 <IoStarOutline className='ico-star'/>
                 <span className='detail-rating'>5.0 Rating</span>
-                {/* <FaUmbrellaBeach className='ico-beach'/>
-                <span className='detail-beach'>Beach</span> */}
+                <FaUmbrellaBeach className='ico-beach'/>
+                <span className='detail-beach'>Beach</span>
+            </div>
+            <span className="line"><hr /></span>
+            <div className='div-value'>
+                <p>${props.price} <br /> <span>{props.package} day package</span></p>
+                <BotaoTransparente className='btn-bookNow' text='Book Now'/>
             </div>
         </div>
     </div>
