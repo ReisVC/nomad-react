@@ -1,0 +1,38 @@
+.banner-middle {
+    display: flex;
+    justify-content: center;
+    height: 130vh;
+    width: 100%;
+    background-image:
+    linear-gradient(180deg, #FFFFFF00 60%, rgb(255, 255, 255) 100%),
+    url('https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/ibrahim-shabil-stJ3k3dj55A-1.webp');
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(50, red, white);
+}
+
+/* linear-gradient(180deg, var(--e-global-color-e632858) 60%, var(--e-global-color-e777cd9) 100%);
+} */
+
+.div-title-banner-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-title-banner-middle button {
+    text-wrap: nowrap;
+    width: 204px;
+    height: 58px;
+    margin-top: 8vh;
+}
+
+.banner-middle h2 {
+    width: 45vw;
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 64px;
+    font-weight: 600;
+    color: white
+}
