@@ -8,6 +8,8 @@ import Title from './layouts/Title'
 import CardsTrip from './layouts/CardsTrip'
 import Upgrade from './layouts/Upgrade'
 import BannerMiddle from './layouts/BannerMiddle'
+import NextDestination from './layouts/NextDestination'
+import FAQ from './layouts/FAQ'
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
           <CardsTrip/>
           <Upgrade/>
           <BannerMiddle/>
+          <NextDestination/>
+          <FAQ/>
       </main>
     </>
   )

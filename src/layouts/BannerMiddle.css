@@ -1,6 +1,7 @@
 .banner-middle {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 130vh;
     width: 100%;
     background-image:
@@ -10,6 +11,7 @@
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(50, red, white);
+    flex-direction: column;
 }
 
 /* linear-gradient(180deg, var(--e-global-color-e632858) 60%, var(--e-global-color-e777cd9) 100%);
@@ -19,6 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -5%;
 }
 
 .div-title-banner-middle button {
@@ -35,4 +38,11 @@
     font-size: 64px;
     font-weight: 600;
     color: white
+}
+
+.div-carousel {
+    height: 310px;
+    width: 1280px;
+    margin-top: 35vh;
+
 }

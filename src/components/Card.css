@@ -81,6 +81,7 @@
 }
 
 .country-content img {
+    margin-bottom: 10px;
     width: 24px;
     height: 24px;
     border-radius: 100%;
@@ -138,7 +139,7 @@
 
 .line {
     width: 80%;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: 10%;
     font-family: 'Manrope', sans-serif;
 }
@@ -148,7 +149,7 @@
 }
 
 .div-value {
-    margin-top: 5%;
+    margin-top: 0%;
     display: flex;
     justify-content: space-between;
 }

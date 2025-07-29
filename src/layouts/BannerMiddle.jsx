@@ -1,6 +1,7 @@
 import React from 'react'
 import './BannerMiddle.css'
 import Botao from '../components/Botao'
+import Carrossel from '../components/Carrossel'
 
 function BannerMiddle() {
   return (
@@ -11,7 +12,7 @@ function BannerMiddle() {
             <Botao texto='Book Now'/>
         </div>
         <div className='div-carousel'>
-            
+            <Carrossel/>
         </div>
     </section>
   )
