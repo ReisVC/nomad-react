@@ -1,0 +1,22 @@
+.div-title {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+}
+
+.div-title h3 {
+    color: #1B1917;
+    font-size: 56px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    margin-left: 5vw;
+}
+
+.div-title button {
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    margin-right: 4vw;
+}

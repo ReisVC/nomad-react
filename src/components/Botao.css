@@ -1,0 +1,38 @@
+.btn-orange {
+    background-color: #ff7526;
+    height: 50px;
+    width: 137px;
+    padding: 12px 36px;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif
+}
+
+.btn-orange:hover, .btn-white:hover {
+    cursor: pointer;
+    background-color: #E45400;
+    transition: all 0.5s ease;
+}
+
+.btn-white:hover {
+    color: white;
+}
+
+.btn-white {
+    width: 131.72px;
+    height: 50px;
+    color: #1B1917;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 48px;
+    border-radius: 10px;
+    background-color: white;
+    border: solid #EDEDED 1px;
+}

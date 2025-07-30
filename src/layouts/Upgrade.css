@@ -1,0 +1,70 @@
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+.section-improve {
+    margin-top: 7%;
+    background-color: #ededed83;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.title-improve {
+    font-size: 56px;
+    font-weight: 600;
+    color: black;
+    padding-left: 10%;
+}
+
+.div-title-improve {
+    margin-top: 7%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-title-improve h3 {
+    margin-left: 5.2vw;
+}
+
+.div-title-improve p {
+    font-size: 18px;
+    color: #6c6c6c;
+    padding-right: 10%;
+    margin-right: 5vw;
+}
+
+.div-upgrade {
+    margin-left: 15.2vw;
+    margin-top: 5vh;
+    width: 70%;
+    height: 2px;
+    border: ridge 0.2px #ededed;
+}
+
+.img-upgrade {
+    background-image: url(https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/exotic-tropical-seascape-with-palm-tree-jetty-pie-2024-10-18-08-01-58-utc.webp);
+    width: 562.88px;
+    height: 531px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-cards-image {
+    margin-top: 9vh;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.cards-upgrade {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}

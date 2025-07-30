@@ -1,0 +1,70 @@
+
+.next-destination {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.next-destination h3{
+    font-size: 56px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    
+}
+
+.div-image-next-destination {
+    background-image: url('https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/shaain-ibrahim-3B-P16CKbtw.webp');
+    background-position: center;
+    background-size: cover;
+    width: 564px;
+    height: 900px;
+    border-radius: 20px;
+    padding: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.div-image-next-destination h4 {
+    font-size: 44px;
+    font-weight: 600;
+    color: white;
+}
+
+.div-next-destination {
+    display: flex;
+    margin-top: 6vh;
+    flex-direction: row;
+    
+}
+
+.div-image-next-destination button {
+    width: 229px;
+    text-wrap: nowrap;
+}
+
+.next-cards {
+    display: flex;
+    width: 750px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.next-cards > div{
+    margin: -20px;
+    transform: scale(0.85);
+}
+
+.next-cards > div .trip-details {
+    transform: scale(1.1);
+    margin-left: 20px;
+}
+
+.next-cards > div .div-value {
+    transform: scale(1);
+}

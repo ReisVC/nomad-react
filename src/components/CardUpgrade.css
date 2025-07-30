@@ -1,0 +1,57 @@
+.card-upgrade {
+    border-radius: 20px;
+    width: 308.56px;
+    height: 257.81px;
+    background-color: #ffffff;
+    border: solid #ededed 1px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 25px;
+    margin-top: 20px;
+    height: 68px;
+}
+
+.card-header .icon {
+    background-color: #FAFAFA;
+    width: 66px;
+    height: 68px;
+    border-radius: 100%;
+    border: solid 1px #ededed;
+    position: relative;
+}
+
+.card-header .icon * {
+    position: absolute;
+    left: 37%; 
+    top: 35%;
+    color: #FF7526;
+    width: 16px;
+    height: 18px;
+}
+
+.card-upgrade h3 {
+    margin-left: 7%;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #1b1917;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.card-upgrade p {
+    color: #6c6c6c;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 7%;
+    margin-top: 10px;
+    text-align: start;
+    width: 80%;
+    line-height: 25px;
+    flex-wrap: wrap;
+}

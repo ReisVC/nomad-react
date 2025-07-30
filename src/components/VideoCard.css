@@ -1,0 +1,98 @@
+.div-card {
+    width: 369px;
+    height: 171px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: -2%;
+    margin-left: -48%;
+    position: relative;
+    box-shadow: 0px -13px 0px rgba(255, 255, 255, 0.479);
+}
+
+@keyframes play-animation {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.4);
+        opacity: 1;
+        border: solid white 2px;
+    }
+
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+
+.play {
+    z-index: 2;
+    left: 17%;
+    top: 36%;
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.425);
+    position: absolute;
+    animation: play-animation 1.2s ease-in infinite;
+}
+
+.btn-play {
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    color: white;
+    padding: 10px;
+    z-index: 3;
+    left: 17%;
+    top: 36%;
+    position: absolute;
+}
+
+#bg-card {
+    margin-top: 10px;
+    margin-left: 6px;
+    width: 151px;
+    height: 155px;
+    border-radius: 20px;
+}
+
+.div-card .quote-card {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.div-card .plus {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    border: 3px solid white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #EDEDED;
+
+}
+
+.div-card .itens-card {
+     display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.div-card .fotos-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
