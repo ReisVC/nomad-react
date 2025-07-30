@@ -46,7 +46,6 @@
     font-weight: 500;
     color: #6C6C6C;
     line-height: 24px;
-    border: solid red 2px;
   }
   
   .accordion-content.open {
